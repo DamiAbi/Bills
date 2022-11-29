@@ -1,0 +1,129 @@
+.ContainerL {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.modalinput {
+  text-transform: uppercase;
+}
+
+.ant-row {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-row.Card {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.ant-card {
+  width: 50%;
+  justify-content: center;
+  margin: 0;
+  font-size: calc(1em + 1vw);
+}
+
+.Contacto {
+  padding: 10px;
+  width: 100%;
+}
+.TextHomeContainer {
+  margin-left: 0px;
+}
+.img-c {
+  width: 20%;
+  height: 20%;
+  border-radius: 150px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+  .category {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+
+.aboutrow {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1090px) {
+  .ContainerTabla {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .TextHomeContainer {
+    font-size: 50%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .TextHomeContainer {
+      font-size: 50%;
+    }
+
+    .formLogin {
+      justify-content: center;
+      border: none;
+      outline: none;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .form-group input {
+      border: none;
+      outline: none;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .anticon {
+      margin-left: 1px;
+    }
+
+    svg {
+      font-size: 15px !important;
+    }
+
+    .ant-table-tbody > tr > td,
+    .ant-table-thead > tr > th,
+    .ant-table tfoot > tr > td,
+    .ant-table tfoot > tr > th {
+      padding: 5px;
+      font-size: 8px;
+    }
+
+    img {
+      height: 30px;
+      width: 30px;
+    }
+
+    main.ant-layout-content.site-layout-background {
+      padding: 0px !important;
+    }
+
+    .ant-modal {
+      width: 70% !important;
+    }
+
+    h2 {
+      margin-left: 10px;
+    }
+
+    span.ant-menu-title-content {
+      font-size: 14px;
+    }
+  }
+}

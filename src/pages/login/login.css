@@ -1,0 +1,266 @@
+.ContainerT {
+  background-image: url(../../assets/fondo2.jpg);
+  background-size: cover;
+  font-size: 14px;
+  min-height: 35em;
+  margin: 0px;
+  padding: 0;
+}
+
+.form-group {
+  background-color: rgba(246, 245, 244, 0.635);
+}
+p.Par {
+  font-size: small;
+}
+.Items {
+  padding: 20px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  margin: 0 0 24px;
+  vertical-align: top;
+}
+.h1T {
+  color: #fafafa !important;
+  margin-top: 40px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  width: 100%;
+}
+
+.ant-card {
+  width: 100%;
+}
+
+.BL {
+  margin-right: 20px;
+}
+
+.ant-form-item-control-input-content {
+  padding: 0px;
+  padding-right: 5px;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  height: 40px;
+}
+
+@media only screen and (min-width: 375px) {
+  #botoncontacto {
+    margin: auto !important;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .h1T {
+    color: #fafafa !important;
+    margin-top: 10px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 15px !important;
+    justify-content: center;
+  }
+  .ItemsA {
+    width: 84%;
+    margin-left: 24px;
+  }
+
+  .ant-form-item-control-input-content {
+    width: 180px;
+  }
+
+  .ant-input-affix-wrapper {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .form-group {
+    background-color: rgba(246, 245, 244, 0.635);
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin: top 0px;
+  }
+
+  .h1T {
+    color: #fafafa !important;
+    margin-top: 10px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 100%;
+    justify-content: center;
+  }
+  .CC {
+    box-shadow: 0.1em 0.1em 0.2em rgb(200, 200, 200);
+  }
+  .img-c {
+    width: 20%;
+    height: 20%;
+    border-radius: 70px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+  }
+  .ant-row.ContainerT {
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .form-otherL {
+    padding: 0%;
+  }
+  .BL {
+    padding: 20px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Items {
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 970px) and (min-width: 550px) {
+  .ContainerL.ContainerT {
+    background-image: url(../../assets/fondo2.jpg);
+    background-size: cover;
+
+    font-size: 10px;
+    min-height: 35em;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+  }
+
+  h1.h1T {
+    font-size: 90%;
+  }
+  .ant-row.ContainerT {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .ant-form-item-label > label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 50px;
+    color: rgba(15, 14, 14, 0.85);
+  }
+
+  .img-c {
+    width: 20%;
+    height: 20%;
+    border-radius: 150px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    margin-left: 5px;
+  }
+
+  h1.h1T {
+    font-size: 100%;
+  }
+  .ant-row.ContainerT {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  .form-group {
+    background-color: rgba(220, 217, 213, 0.635);
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    margin-bottom: 20%;
+    margin-top: 0%;
+  }
+}
+
+@media only screen and (max-width: 415px) and (min-width: 375px) {
+  #email.ant-input {
+    width: 180px;
+  }
+ 
+}
+
+@media only screen and (max-width: 830px) {
+  .TextHomeContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ContainerT {
+    background-image: url(../../assets/fondo2.jpg);
+    background-size: cover;
+    font-size: 14px;
+    min-height: 25em;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+  }
+
+  div.ant-row {
+    display: flex;
+    width: 100%;
+  }
+  .ant-col-7 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .ContainerC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+  }
+  .ant-col-7.ant-card {
+    width: 100%;
+  }
+
+  div.ant-col.contC {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 1025px) {
+  .ContainerT {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    padding-top: 5px;
+  }
+  #email.ant-input {
+    width: 350px;
+    height: 50px;
+  }
+  .ant-input-affix-wrapper {
+    width: 350px !important;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+  .ant-input-affix-wrapper {
+    padding: 0px;
+    width: 350px;
+    margin-left: 20px;
+  }
+}

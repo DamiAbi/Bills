@@ -1,0 +1,103 @@
+.textR {
+  margin-left: 20px;
+}
+
+.logoR {
+  width: 20%;
+  height: 20%;
+  border-radius: 70px;
+  margin: 5px;
+  object-fit: cover;
+  float: left;
+}
+
+.ContainerR {
+  background-image: url(../../assets/b1.jpg);
+  background-size: cover;
+  font-size: 8px;
+  min-height: 100vh;
+  margin: 0px;
+  position: relative;
+}
+
+.formRu {
+  background-color: rgba(246, 245, 244, 0.635);
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  margin-bottom: 20%;
+  margin-top: 0%;
+  width: 80%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: black !important;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: black !important;
+  margin-top: 30px;
+}
+
+.form-group .ItemR {
+  width: 90%;
+  /* margin-left: 20px; */
+}
+.imp {
+  margin-left: 30px;
+}
+.imp1 {
+  margin-left: 40px;
+}
+
+.ant-row .ContReg {
+  justify-content: center;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 415px) {
+  #email.ant-input.ItemR {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (width: 540px) {
+  .ant-input-affix-wrapper.ant-input-password.ItemR {
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ant-input-suffix {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .ant-input-suffix {
+    margin-left: 115px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .ant-input-affix-wrapper.ant-input-password.ItemR {
+    margin: 0px;
+    width: 90% !important;
+  }
+  #email.ant-input.ItemR {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ant-input-affix-wrapper.ant-input-password.ItemR {
+    margin: 0px;
+  }
+}

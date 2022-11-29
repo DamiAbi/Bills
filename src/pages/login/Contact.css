@@ -1,0 +1,92 @@
+.H1Contactanos {
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+h3.H3Contactanos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.ant-col .contC {
+  width: 50%;
+  padding: 10px;
+}
+
+.textC {
+  color: #fe642c !important;
+}
+
+.H3Contactanos {
+  display: flex;
+  justify-content: center;
+}
+.H1Contactanos {
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.H3Contactanos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.contC {
+  width: 50%;
+  padding: 20px;
+}
+
+.textC {
+  color: #fe642c !important;
+}
+
+.H3Contactanos {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 769px) {
+  #contC {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 830px) {
+  .ContainerContactanos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ant-col .ContC1 {
+    width: 20%;
+
+    float: left;
+  }
+  .ant-col .ContC1 {
+    width: 20%;
+
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 539px) {
+  textarea#basic_message.ant-input {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,99 @@
+@media only screen and (min-width:1238px){
+    .ContainerT {
+      display: flex;
+      justify-content: space-evenly;
+     padding: 40px;
+     padding-top: 5px;
+  
+    }
+    .TextHomeContainer{
+      margin-left: 160px;
+    }
+  
+  }
+  @media only screen and (max-width:998px){
+    .h1T{
+      
+      font-size: 25px !important; 
+    }
+  }
+  @media only screen and (min-width:831px) and (max-width:981px){
+  .TextHomeContainer{
+    margin-left: 170px;
+    margin-top: -80px;
+  }
+  }
+  @media only screen and (min-width:550px) and (max-width:830px){
+    .TextHomeContainer{
+     
+      margin-top: -80px;
+    }
+  }
+
+  @media only screen and (min-width:971px) and (max-width:981px){
+    .TextHomeContainer{
+
+      margin-left: 20px;
+      margin-top: -10px;
+    } 
+    .img-c{
+      margin-top: 10px;
+    }
+    .form-group {
+      background-color: rgba(220, 217, 213, 0.635);
+    }
+  }
+  @media only screen and (min-width:831px) and (max-width:900px){
+    .TextHomeContainer{
+
+      margin-left: 130px;
+      
+    } 
+    .img-c{
+      margin-top: 10px;
+    }
+  }
+  @media only screen  and (max-width:480px){
+    .pL{
+      font-size: 12px;
+      
+    }
+    .formLogin{
+      padding: 0%;
+      
+    }
+    .TextHomeContainer{
+      padding-bottom: 0%;
+    }
+    h1.h1T{
+      font-size: 22px !important;
+    }
+    .form-otherL{
+      margin-left: -10%;
+    }
+    .BL{
+      margin-right: 2% !important;
+    }
+  }
+  @media only screen and (max-width:412px){
+    .TextHomeContainer{
+    width: 80%!important;
+margin-left: 15%;
+    }
+
+  }
+
+  @media only screen and (min-width:481px) and (max-width:1278px){
+    .BL{
+      margin-right: 9% !important;
+    }
+  }
+
+
+  .pL{
+    color: #fafafa !important;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
